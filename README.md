@@ -1,5 +1,7 @@
 # UsePopCorn
 
+![UsePopCorn](public/movie.png)
+
 A React app for searching, rating, and saving ratings for movies you've watched.
 
 ## Live Demo
