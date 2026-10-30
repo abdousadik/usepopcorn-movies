@@ -2,11 +2,13 @@
 
 ![UsePopCorn](public/movie.png)
 
-A React app for searching, rating, and saving ratings for movies you've watched.
+A React learning application for searching movies and saving watch ratings in local storage. It practices effects, custom hooks, and browser persistence.
+
+Learning project built while following [The Ultimate React Course](https://www.udemy.com/course/the-ultimate-react-course/) by Jonas Schmedtmann. The application concept and course design come from the course; this repository contains my course implementation. It is retained as learning work.
 
 ## Live Demo
 
-[View the project live here](https://usepopcorn-abdousadik.netlify.app/).
+[Hosted demo (availability not verified)](https://usepopcorn-abdousadik.netlify.app/).
 
 ---
 
@@ -21,7 +23,7 @@ A React app for searching, rating, and saving ratings for movies you've watched.
 
 ## Description
 
-UsePopCorn is a React application designed to enhance your movie-watching experience. With this app, you can:
+This course implementation lets you:
 
 - Use a search bar to look up movies from a comprehensive API.
 - Rate your favorite or recently watched movies.
@@ -56,7 +58,7 @@ To get started with the UsePopCorn project, follow these steps:
 3. Install the necessary dependencies:
 
    ```bash
-   npm i
+   npm ci
    ```
 
 4. Start the development server:
@@ -74,6 +76,14 @@ To get started with the UsePopCorn project, follow these steps:
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for further details.
+This repository contains course-based learning work. Upstream licensing and attribution are being reviewed; no standalone project license is asserted here.
 
 ---
+
+## API configuration
+
+Movie search depends on the external movie API referenced in `src/useMovies.js`. Any API key included in frontend source or a frontend build is visible to visitors. Configure provider restrictions and quotas where supported; use a server-side proxy if a key must be kept secret. Moving a key to frontend environment variables alone does not hide it.
+
+## References
+
+[The Ultimate React Course — Jonas Schmedtmann](https://www.udemy.com/course/the-ultimate-react-course/)
